@@ -1,0 +1,98 @@
+/* index.css - Améliorations globales */
+
+/* 1. Réinitialisation des styles de base */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+                 'Helvetica Neue', Arial, sans-serif; /* Police moderne */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f8f9fa; /* Couleur de fond claire */
+  }
+  
+  /* 2. Amélioration de l'apparence des boutons */
+  .btn {
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère pour les boutons */
+    padding: 10px 20px;
+    font-weight: 600;
+    text-transform: uppercase; /* Mettre en majuscules pour les boutons */
+    border: 2px solid transparent; /* Ajouter une bordure transparente pour éviter un effet visuel perturbant */
+    transition: all 0.3s ease; /* Transition douce */
+  }
+  
+  .btn-primary {
+    background-color: #2563eb; /* Bleu de fond */
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4f46e5; /* Bleu plus foncé au survol */
+    transform: scale(1.05); /* Agrandir légèrement au survol */
+  }
+  
+  .btn-custom {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 700;
+  }
+  
+  /* 3. Espacement et disposition */
+  .container {
+    padding: 2rem; /* Espacement intérieur pour la largeur maximale */
+  }
+  
+  main {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre plus forte pour la section principale */
+    margin-top: 20px;
+  }
+  
+  header {
+    background-color: #2563eb; /* Bleu pour le header */
+    color: white;
+    padding: 2rem 0; /* Plus d'espace dans le header */
+  }
+  
+  footer {
+    background-color: #343a40; /* Gris foncé */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  footer .container {
+    font-size: 0.9rem;
+  }
+  
+  /* 4. Liens */
+  a {
+    text-decoration: none;
+    color: #2563eb;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #4f46e5; /* Changement de couleur au survol */
+  }
+  
+  /* 5. Media Queries pour mobile */
+  @media (max-width: 768px) {
+    header {
+      text-align: center;
+    }
+  
+    .container {
+      padding: 1rem; /* Moins d'espace sur mobile */
+    }
+  
+    .btn-custom {
+      width: 100%; /* Bouton prend toute la largeur sur mobile */
+    }
+  
+    footer {
+      padding: 1rem;
+    }
+  }
+  

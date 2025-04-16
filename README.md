@@ -1,5 +1,3 @@
-Bien sûr ! Voici ton fichier `README.md` bien propre, structuré et prêt à être copié-collé dans ton projet GitHub 👌
-
 
 
 
